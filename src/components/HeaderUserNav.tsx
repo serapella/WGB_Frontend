@@ -44,6 +44,15 @@ const HeaderUserNav = () => {
               </Link>
             )}
           </li>
+
+          <li>
+            <Link to="/user/profile">
+              <i>
+                <BsPerson />
+              </i>
+              <span>Profile</span>
+            </Link>
+          </li>
           <li>
             <Link to="/user/wishlist">
               <i>
