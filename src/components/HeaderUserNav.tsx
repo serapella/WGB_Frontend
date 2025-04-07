@@ -44,7 +44,6 @@ const HeaderUserNav = () => {
               </Link>
             )}
           </li>
-
           <li>
             <Link to="/user/profile">
               <i>

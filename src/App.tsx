@@ -12,6 +12,8 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import ContactUs from "./pages/ContactUs";
 import RegisterPage from "./pages/RegisterPage";
+import ProfilePage from "./pages/ProfilePage";
+
 const App = () => {
   return (
     <>
@@ -69,6 +71,15 @@ const App = () => {
             element={
               <>
                 <ShoppingCart />
+              </>
+            }
+          />
+
+          <Route
+            path="/user/profile"
+            element={
+              <>
+                <ProfilePage />
               </>
             }
           />

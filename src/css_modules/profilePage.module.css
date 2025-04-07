@@ -1,0 +1,31 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profilePage h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.profilePage p {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.profilePage button {
+  background-color: var(--navTop);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.profilePage button:hover {
+  background-color: var(--buttonHover);
+}
